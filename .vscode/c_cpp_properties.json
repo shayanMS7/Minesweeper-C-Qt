@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/qt@5/5.15.16/include/**",
+                "/opt/homebrew/Cellar/qt@5/5.15.16/include/QtCore",
+                "/opt/homebrew/Cellar/qt@5/5.15.16/include/QtWidgets"
+            ],
+            "defines": [
+                "QT_CORE_LIB",
+                "QT_WIDGETS_LIB"
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
